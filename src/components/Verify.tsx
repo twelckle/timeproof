@@ -2,7 +2,6 @@ import React, { useRef, useState } from 'react';
 import { keccak256, toUtf8Bytes } from 'ethers';
 import { BrowserProvider, Contract } from 'ethers';
 import { CONTRACT_ADDRESS, ABI, normalizeIdea } from '../utils/blockchain';
-import logo from '../assets/full_logo.png'; 
 
 const Verify = () => {
   const fileInputRef = useRef<HTMLInputElement | null>(null);
@@ -85,7 +84,7 @@ const Verify = () => {
   
         // Load image as base64
         const img = new Image();
-        img.src = logo;
+        img.src = '/full_logo.png';
   
         img.onload = () => {
           doc.addImage(img, 'PNG', 15, 20, 57,25); // (img, type, x, y, width, height)

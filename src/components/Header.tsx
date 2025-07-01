@@ -1,6 +1,4 @@
 import { useEffect, useState } from 'react';
-import logo from '../assets/logo.png';
-import fullLogo from '../assets/full_Logo.png';
 
 function Header() {
   const [visibleSection, setVisibleSection] = useState<'landing' | 'other'>('landing');
@@ -24,7 +22,7 @@ function Header() {
     <div style={{ position: 'fixed', top: 0, left: 0, zIndex: 1000, padding: '10px', backgroundColor: 'transparent' }}>
       <a href="#landing">
         <img
-          src={visibleSection === 'landing' ? fullLogo : logo}
+          src={visibleSection === 'landing' ? '/full_logo.png' : '/logo.png'}
           alt="logo"
           style={{ height: '155px', width: 'auto', padding: '10px', cursor: 'pointer' }}
         />
