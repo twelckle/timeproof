@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { CONTRACT_ADDRESS, ABI, normalizeIdea } from '../utils/blockchain';
+import { CONTRACT_ADDRESS, ABI } from '../utils/blockchain';
 import { ethers } from 'ethers';
 import type { Eip1193Provider } from 'ethers';
 

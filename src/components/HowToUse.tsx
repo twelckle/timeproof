@@ -40,7 +40,7 @@ const HowToUse: React.FC = () => {
     <div className="container py-5" style={{ marginLeft: '40px' }}>
       <h1 style={{ color: '#043264', fontSize: '2.5rem' }}>How to Use TimeProof</h1>
       <div className="d-flex flex-column align-items-start text-start">
-        {steps.map(({ step, title, description, link, linkText }) => (
+        {steps.map(({ step, title, description }) => (
           <div key={step} style={{ marginBottom: '2rem' }}>
             <div style={{ display: 'flex', alignItems: 'flex-start' }}>
               <div

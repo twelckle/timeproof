@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
-import { keccak256, toUtf8Bytes } from 'ethers';
+import { keccak256 } from 'ethers';
 import { BrowserProvider, Contract } from 'ethers';
-import { CONTRACT_ADDRESS, ABI, normalizeIdea } from '../utils/blockchain';
+import { CONTRACT_ADDRESS, ABI } from '../utils/blockchain';
 
 const Verify = () => {
   const fileInputRef = useRef<HTMLInputElement | null>(null);
