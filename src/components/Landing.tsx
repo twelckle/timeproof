@@ -45,7 +45,7 @@ const Landing = () => {
             <div style={{ height: '100%' }}>
               <div className="ratio ratio-16x9" style={{ height: '100%' }}>
                 <iframe
-                  src="https://www.youtube.com/embed/VIDEO_ID"
+                  src="https://www.youtube.com/embed/mg0vpigV284?si=E1fOULHiJDCWoEBW"
                   title="TimeProof Explainer"
                   allowFullScreen
                 ></iframe>
