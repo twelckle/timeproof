@@ -13,7 +13,7 @@ const Landing = () => {
             </div>
             <div className="text-start">
               <p className="lead fs-5 mb-4" style={{ color: '#043264' }}>
-                TimeProof helps you prove ownership of your ideas, your work, your creations by securely timestamping them on the blockchain. Submit any type of file (Text, PDF, Images, Code, etc) and receive verifiable, tamper-proof verification that you had it first, all without exposing the content publicly.
+                TimeProof helps you prove ownership of your ideas, your work, or your creations by securely timestamping them on the blockchain. Submit any type of file (Text, PDF, Images, Code, etc) and receive verifiable, tamper-proof verification that you had it first, all without exposing the content publicly.
               </p>
             </div>
             <div className="d-flex justify-content-center gap-5">
